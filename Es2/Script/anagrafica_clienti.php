@@ -4,11 +4,12 @@
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Esercizio 2</title>
-        <link type="stylesheet" rel="../../CommonStyle/ElaboratedBase.CSS">
+        <link rel="stylesheet" type="text/css" href="../../CommonStyle/ElaboratedBase.CSS">
     </head>
     <body>
-        <h1> Dati processati </h1>
         <div>
+            <h1> Dati processati </h1>
+            <hr>
             <?php
                 // 1. Numero di utenti con più di 40 anni + salvataggio dati
                 $nMagg = 0;
