@@ -9,56 +9,104 @@
     <body>
         <h1>Esercizio 1 - Classifica squadre</h1>
         <form method="post" action="../Script/classifica_squadre.php">
+            <hr>
             <h2> Squadra 1 </h2>
             <!-- Nome -->
-            <label for="Squadra1"> Nome squadra</label><br>
+            <label for="Squadra1">Nome squadra</label><br>
             <input type="text" name="Squadra1" required><br>
 
             <!-- Vittorie -->
-            <label for="nVittorie1"> Numero di partite vinte</label><br>
+            <label for="nVittorie1">Numero di partite vinte</label><br>
             <input type="number" name="nVittorie1" required><br>
 
             <!-- Pareggi -->
-            <label for="nPareggiate1"> Numero di partite pareggiate</label><br>
+            <label for="nPareggiate1">Numero di partite pareggiate</label><br>
             <input type="number" name="nPareggiate1" required><br>
 
             <!-- Perse -->
-            <label for="nPerse1"> Numero di partite perse</label><br>
+            <label for="nPerse1">Numero di partite perse</label><br>
             <input type="number" name="nPerse1" required><br>
+
+            <!-- Categoria -->
+            <label for="tipo1">Seleziona la categoria</label><br>
+            <select name="tipo1">
+                <option value="Under18">Under 18</option>
+                <option value="Adulti">Adulti</option>
+                <option value="Veterani">Veterani</option>
+            </select><br>
+            
+            <!-- Nuova -->
+            <p>La squadra è nuova?</p>
+            <input type="radio" name="Nuova1" id="si1" value="si" required>
+            <label for="si1">SI</label><br>
+            <input type="radio" name="Nuova1" id="no1" value="no">
+            <label for="no1">NO</label><br>
+
             <hr>
             <h2> Squadra 2 </h2>
             <!-- Nome -->
-            <label for="Squadra2"> Nome squadra</label><br>
+            <label for="Squadra2">Nome squadra</label><br>
             <input type="text" name="Squadra2" required><br>
 
             <!-- Vittorie -->
-            <label for="nVittorie2"> Numero di partite vinte</label><br>
+            <label for="nVittorie2">Numero di partite vinte</label><br>
             <input type="number" name="nVittorie2" required><br>
 
             <!-- Pareggi -->
-            <label for="nPareggiate2"> Numero di partite pareggiate</label><br>
+            <label for="nPareggiate2">Numero di partite pareggiate</label><br>
             <input type="number" name="nPareggiate2" required><br>
 
             <!-- Perse -->
-            <label for="nPerse2"> Numero di partite perse</label><br>
+            <label for="nPerse2">Numero di partite perse</label><br>
             <input type="number" name="nPerse2" required><br>
+            
+            <!-- Categoria -->
+            <label for="tipo2">Seleziona la categoria</label><br>
+            <select name="tipo2">
+                <option value="Under18">Under 18</option>
+                <option value="Adulti">Adulti</option>
+                <option value="Veterani">Veterani</option>
+            </select><br>
+            
+            <!-- Nuova -->
+            <p>La squadra è nuova?</p>
+            <input type="radio" name="Nuova2" id="si2" value="si" required>
+            <label for="si2">SI</label><br>
+            <input type="radio" name="Nuova2" id="no2" value="no">
+            <label for="no2">NO</label><br>
+
             <hr>
             <h2> Squadra 3 </h2>
             <!-- Nome -->
-            <label for="Squadra3"> Nome squadra</label><br>
+            <label for="Squadra3">Nome squadra</label><br>
             <input type="text" name="Squadra3" required><br>
 
             <!-- Vittorie -->
-            <label for="nVittorie3"> Numero di partite vinte</label><br>
+            <label for="nVittorie3">Numero di partite vinte</label><br>
             <input type="number" name="nVittorie3" required><br>
 
             <!-- Pareggi -->
-            <label for="nPareggiate3"> Numero di partite pareggiate</label><br>
+            <label for="nPareggiate3">Numero di partite pareggiate</label><br>
             <input type="number" name="nPareggiate3" required><br>
 
             <!-- Perse -->
-            <label for="nPerse3"> Numero di partite perse</label><br>
+            <label for="nPerse3">Numero di partite perse</label><br>
             <input type="number" name="nPerse3" required><br>
+
+            <!-- Categoria -->
+            <label for="tipo3">Seleziona la categoria</label><br>
+            <select name="tipo3">
+                <option value="Under18">Under 18</option>
+                <option value="Adulti">Adulti</option>
+                <option value="Veterani">Veterani</option>
+            </select><br>
+            
+            <!-- Nuova -->
+            <p>La squadra è nuova?</p>
+            <input type="radio" name="Nuova3" id="si3" value="si" required>
+            <label for="si3">SI</label><br>
+            <input type="radio" name="Nuova3" id="no3" value="no">
+            <label for="no3">NO</label><br>
             <hr>
 
             <input type="reset">

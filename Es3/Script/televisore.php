@@ -7,5 +7,11 @@
         <link type="stylesheet" rel="../../../CommonStyle/Basics.CSS">
     </head>
     <body>
+        <h1> Dati processati </h1>
+        <div>
+            <?php
+                
+            ?>
+        </div>
     </body>
 </html>
